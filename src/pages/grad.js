@@ -1,5 +1,6 @@
 import React from 'react'
-import graduationBanner from './banners/graduationBanner.jpg'
+import graduationBanner from './banners/graduationBanner.jpg';
+import AboutComponent from '../components/aboutComponent';
 
 function grad() {
     return (
@@ -15,16 +16,18 @@ function grad() {
             <div class="fade-in-text">
                 <div class="notcentered">
                     <div class="containergeneral">
-                        <h2><b>Grad Apps</b></h2><br></br>
+                        <h2><b>About Me</b></h2><br></br>
         
                     </div>
                 </div>
             </div>
         </div>
             <div id="centeredbox">
-                Applying for grad school advice. Pls fix the horribly photoshopped banner too TTTT
+                
+                <AboutComponent/>
 
             </div>
+
         </div>
     )
 }

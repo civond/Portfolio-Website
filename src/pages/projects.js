@@ -1,10 +1,7 @@
 import React from 'react'
 
 import bannerimg from "./banners/projectBanner.jpg"
-import imgprocFigure1 from "./graphics/Figure1.png";
-import imgprocFigure2 from "./graphics/Figure2.png";
-import imgprocFigure3 from "./graphics/Figure3.png";
-import imgprocFigure4 from "./graphics/Figure4.png";
+import imgproc from "./graphics/imgProcessing.png"
 import colorRecog from "./graphics/colorRecognition.PNG";
 import FMONgraph from "./graphics/mouseFigure_1.png";
 
@@ -66,10 +63,7 @@ function projects() {
                         </ol>
                     </div>
           
-                    <br></br><img src={imgprocFigure1} alt='img' id="90img"></img>
-                    <br></br><img src={imgprocFigure2} alt='img' id="90img"></img>
-                    <br></br><img src={imgprocFigure3} alt='img' id="90img"></img>
-                    <br></br><img src={imgprocFigure4} alt='img' id="90img"></img>
+                    <br></br><img src={imgproc} id="projectimg"></img>
                 </div>
 
                 <div>
@@ -80,7 +74,7 @@ function projects() {
                     Nothing super special, but cool nonetheless~ (This image was taken in Xiangshan, Taipei). 
                     <a href="https://github.com/civond/personalProjects/tree/main/Color_Recognition" 
                     target="_blank" rel="noopener noreferrer"> Code here</a>
-                    <br></br><br></br><img src={colorRecog} alt='img' id="90img"></img>
+                    <br></br><br></br><img src={colorRecog} alt='img' id="projectimg"></img>
                 </div>
 
                 <div>
@@ -92,14 +86,15 @@ function projects() {
                     <a href="https://github.com/civond/personalProjects/tree/main/FMON_PerformanceGraphs" 
                     target="_blank" rel="noopener noreferrer"> Code here </a>
                     <br></br>
-                    <br></br><img src={FMONgraph} alt='img' id="90img"></img>
+                    <br></br><img src={FMONgraph} alt='img' id="projectimg"></img>
                 </div>
 
                 <div>
                     <div>
                         <br></br><h3>This React Website</h3><hr width="100%" color="black"></hr>
                     </div>
-                    This website acts as a semi-professional portfolio for others to see, and is a great way to keep myself organized.
+                    This website was built entirely from scratch using Reactjs, JavaScript, CSS, and HTML.
+                    It acts as a semi-professional portfolio for others to see, and is a great way to keep myself organized.
 
                     Having only rudimentary proficiency in JavaScript prior to this, it is an understatement to say that it was a <em><b>challenge </b></em> to make this website on my own.
                     However, I am lucky to have many software engineer friends that can answer my many questions about React and JavaScript! 

@@ -20,7 +20,7 @@
     background-color:#242524;
     transition: 1850ms;
     opacity: 85%;
-    z-index:0;
+    z-index:1;
   }
 
   #generalbanner{
@@ -31,6 +31,7 @@
     background-color:#242524;
     transition: 1850ms;
     opacity: 85%;
+    z-index: 1;
   }
 
   #bannerunderlay{

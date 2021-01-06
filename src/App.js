@@ -3,12 +3,10 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrolltoTop from './components/scrolltoTop';
 
-
 // CSS Files
 import './pages/css/styling.css';
 import './pages/css/fade.css';
 import './pages/css/banners.css';
-
 
 // Pages
 import home from './pages/home';
