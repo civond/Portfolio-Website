@@ -16,22 +16,20 @@ import abroad from './pages/abroad';
 import photos from './pages/photos';
 
 function App() {
+  document.title = "Dorian Yeh"
   return (
+    <>
     <Router>
-
       <ScrolltoTop />
       <Navbar />
-      
       <Switch>
         <Route path='/' exact component={home} />
         <Route path='/home' component={home} />
         <Route path='/projects' component={projects} />
         <Route path='/grad' component={grad} />
-        <Route path='/photos' component={photos} />
-        <Route path='/abroad' component={abroad} />
       </Switch>
-
     </Router>
+    </>
   );
 }
 
