@@ -42,6 +42,20 @@
     opacity: 0;
     animation-fill-mode: forwards;
     }
+#innercontentfade{
+    animation: fadeIn ease-in-out 1s;
+    animation-delay: 1.4s;
+    -webkit-animation: fadeIn ease-in-out 1s;
+    -webkit-animation-delay: 1.4s;
+    -moz-animation: fadeIn ease-in-out 1s;
+    -moz-animation-delay: 1.4s;
+    -o-animation: fadeIn ease-in-out 1s;
+    -o-animation-delay: 1.4s;
+    -ms-animation: fadeIn ease-in-out 1s;
+    -ms-animation-delay: 1.4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    }
 .buttonfade {
     animation: fadeIn ease-in-out .5s;
     -webkit-animation: fadeIn ease-in-out .5s;
