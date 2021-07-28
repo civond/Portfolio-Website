@@ -16,10 +16,10 @@ function home() {
             <div class="fade-in-text">
                 <div class="centered">
                     <div class="container">
-                        <h2><b>Hello / 你好 / こんにちは！</b></h2><br></br>
-                        My name is Dorian, and I am an aspiring Ph.D. student / data scientist!
-                        <br></br>I am a published researcher with quantative training and ~19 months of full time experience. I aim to apply my background to create predictive 
-                        models of neuronal activity to learn their contributions towards movement and behavior.
+                        <h2><b>Hello / 你好 / こんにちは！</b></h2><br/>
+                        My name is Dorian, and I am a published researcher with quantative training with ~2.5 years of full time experience. 
+                        I wish to apply my expertise to develop data-driven solutions to improve human health and empowering those
+                        in developing countries as a researcher, or data scientist!
                     </div>
                 </div>
             </div>
